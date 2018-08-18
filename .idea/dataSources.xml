@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails mwm_ror_exam_02: development" uuid="bf653db3-72f5-404d-8ac6-8527abcf0020">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/mwm_ror_exam_02_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails mwm_ror_exam_02: production" uuid="cef7a3a4-0a5a-4513-88ec-00acaf042838">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/mwm_ror_exam_02_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails mwm_ror_exam_02: test" uuid="751f0794-deb6-4c9c-89cf-913fe45cb32d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/mwm_ror_exam_02_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
