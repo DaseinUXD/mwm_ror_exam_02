@@ -1,16 +1,43 @@
+<!--The "application" layout contains boilerplate common to *all* views-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>MwmRorExam02</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <!--stylesheet link helper-->
+  <%= stylesheet_link_tag("application", media: "all", "data-turbolinks-track" => "reload") %>
+  <!--javascript include helper-->
+  <%= javascript_include_tag("application", "data-turbolinks-track" => "reload") %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <!--meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%# Specifies the default name of home screen bookmark in iOS 6+ %>
+  <meta name="apple-mobile-web-app-title" content="Mwm Ror Exam01">
+  <!--rails-generated meta tags-->
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <!--page title-->
+  <title><%= yield :title %></title>
+</head>
+<body>
 
-  </head>
+<!--header-->
+<header class="container">
+  <%= render('shared/navbar') %>
+</header>
 
-  <body>
+<!--main-->
+<main class="container">
+  <section id="flash_messages">
+    <%= render('shared/flash') %>
+  </section>
+  <section>
     <%= yield %>
-  </body>
+  </section>
+</main>
+
+<!--footer-->
+<footer class="container">
+  <%= render('shared/footer') %>
+</footer>
+</body>
 </html>
