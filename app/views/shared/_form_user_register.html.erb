@@ -1,0 +1,20 @@
+<!-- generated from the scaffold form template -->
+<%= simple_form_for @user, :url => { :action => "create" } do |f| %>
+  <fieldset>
+    <legend>Registration</legend>
+
+    <div class="form-inputs">
+      <%= f.input :first_name %>
+      <%= f.input :last_name %>
+      <%= f.input :email %>
+      <%= f.input :password %>
+      <%= f.input :password_confirmation, label: false %>
+      <%= f.input :alias %>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit, "Register", class: "btn btn-primary" %>
+    </div>
+<% end %>
+
+</fieldset>
