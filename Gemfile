@@ -49,7 +49,8 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'annotate'
   gem 'awesome_print'
-  # gem 'better_errors'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'xray-rails'
 end
 

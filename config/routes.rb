@@ -1,12 +1,9 @@
 # == Route Map
 #
 #                    Prefix Verb URI Pattern                                                                              Controller#Action
-#              sessions_new GET  /sessions/new(.:format)                                                                  sessions#new
-#           sessions_create GET  /sessions/create(.:format)                                                               sessions#create
-#          sessions_destroy GET  /sessions/destroy(.:format)                                                              sessions#destroy
 #               users_index GET  /users/index(.:format)                                                                   users#index
 #                 users_new GET  /users/new(.:format)                                                                     users#new
-#              users_create GET  /users/create(.:format)                                                                  users#create
+#              users_create POST /users/create(.:format)                                                                  users#create
 #                users_show GET  /users/show(.:format)                                                                    users#show
 #                users_edit GET  /users/edit(.:format)                                                                    users#edit
 #              users_update GET  /users/update(.:format)                                                                  users#update
@@ -18,9 +15,13 @@
 #      rails_direct_uploads POST /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
 
 Rails.application.routes.draw do
-  get 'sessions/new'
-  get 'sessions/create'
-  get 'sessions/destroy'
+  get 'collection_items/index'
+  get 'collection_items/new'
+  post 'collection_items/create'
+  get 'collection_items/show'
+  get 'collection_items/edit'
+  get 'collection_items/update'
+  get 'collection_items/destroy'
   get 'users/index'
   get 'users/new'
   post 'users/create'

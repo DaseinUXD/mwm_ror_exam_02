@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def index
+    @users = User.all
   end
 
   def new
@@ -8,16 +9,19 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
+    @user.save
     if @user.save
-      flash[:notice] = "Success message to print"
-      redirect_to @user
+      flash[:notice] = "New user created successfully"
+      puts '+++++ @item.id +++++'
+      puts @item.id
+      redirect_to '/users/show'
     else
       render 'new'
     end
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find(@user.id)
   end
 
   def edit
@@ -32,6 +36,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :password, :password_confirmation, :alias)
+    params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation, :alias)
   end
 end

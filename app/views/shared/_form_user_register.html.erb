@@ -1,5 +1,6 @@
 <!-- generated from the scaffold form template -->
-<%= simple_form_for @user, :url => { :action => "create" } do |f| %>
+<%= simple_form_for (@user), :url => { :action => "create" } do |f| %>
+  <% puts 'simple form passes?' %>
   <fieldset>
     <legend>Registration</legend>
 
@@ -8,7 +9,7 @@
       <%= f.input :last_name %>
       <%= f.input :email %>
       <%= f.input :password %>
-      <%= f.input :password_confirmation, label: false %>
+      <%= f.input :password_confirmation%> <!-- label: false -->
       <%= f.input :alias %>
     </div>
 

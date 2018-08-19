@@ -14,6 +14,23 @@
 #
 
 class User < ApplicationRecord
+  EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   has_secure_password
-  validates :first_name, :last_name, :email, presence: true
+
+  validates :first_name, :last_name, presence: true, length: { in: 2..20 }
+  validates :first_name, :last_name, presence: true, length: { in: 2..20 }
+  validates :email, presence: true, uniqueness: {case_sensitive: false},
+            format: {with: EMAIL_REGEX}
+  before_save :downcase_email
+  after_create :cx_success
+
+  private
+  def downcase_email
+    self.email.downcase!
+  end
+
+  def cx_success
+    puts "Successfully created a new user"
+  end
+
 end

@@ -1,10 +1,14 @@
                    Prefix Verb URI Pattern                                                                              Controller#Action
-             sessions_new GET  /sessions/new(.:format)                                                                  sessions#new
-          sessions_create GET  /sessions/create(.:format)                                                               sessions#create
-         sessions_destroy GET  /sessions/destroy(.:format)                                                              sessions#destroy
+   collection_items_index GET  /collection_items/index(.:format)                                                        collection_items#index
+     collection_items_new GET  /collection_items/new(.:format)                                                          collection_items#new
+  collection_items_create GET  /collection_items/create(.:format)                                                       collection_items#create
+    collection_items_show GET  /collection_items/show(.:format)                                                         collection_items#show
+    collection_items_edit GET  /collection_items/edit(.:format)                                                         collection_items#edit
+  collection_items_update GET  /collection_items/update(.:format)                                                       collection_items#update
+ collection_items_destroy GET  /collection_items/destroy(.:format)                                                      collection_items#destroy
               users_index GET  /users/index(.:format)                                                                   users#index
                 users_new GET  /users/new(.:format)                                                                     users#new
-             users_create GET  /users/create(.:format)                                                                  users#create
+             users_create POST /users/create(.:format)                                                                  users#create
                users_show GET  /users/show(.:format)                                                                    users#show
                users_edit GET  /users/edit(.:format)                                                                    users#edit
              users_update GET  /users/update(.:format)                                                                  users#update
