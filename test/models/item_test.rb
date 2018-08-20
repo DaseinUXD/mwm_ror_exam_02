@@ -1,17 +1,17 @@
 # == Schema Information
 #
-# Table name: collection_items
+# Table name: items
 #
 #  id         :bigint(8)        not null, primary key
-#  attr_01    :string
-#  attr_02    :string
+#  info       :string
+#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  user_id    :bigint(8)
 #
 # Indexes
 #
-#  index_collection_items_on_user_id  (user_id)
+#  index_items_on_user_id  (user_id)
 #
 # Foreign Keys
 #
@@ -20,7 +20,7 @@
 
 require 'test_helper'
 
-class CollectionItemTest < ActiveSupport::TestCase
+class ItemTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

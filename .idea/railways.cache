@@ -1,20 +1,20 @@
-                   Prefix Verb URI Pattern                                                                              Controller#Action
-   collection_items_index GET  /collection_items/index(.:format)                                                        collection_items#index
-     collection_items_new GET  /collection_items/new(.:format)                                                          collection_items#new
-  collection_items_create GET  /collection_items/create(.:format)                                                       collection_items#create
-    collection_items_show GET  /collection_items/show(.:format)                                                         collection_items#show
-    collection_items_edit GET  /collection_items/edit(.:format)                                                         collection_items#edit
-  collection_items_update GET  /collection_items/update(.:format)                                                       collection_items#update
- collection_items_destroy GET  /collection_items/destroy(.:format)                                                      collection_items#destroy
-              users_index GET  /users/index(.:format)                                                                   users#index
-                users_new GET  /users/new(.:format)                                                                     users#new
-             users_create POST /users/create(.:format)                                                                  users#create
-               users_show GET  /users/show(.:format)                                                                    users#show
-               users_edit GET  /users/edit(.:format)                                                                    users#edit
-             users_update GET  /users/update(.:format)                                                                  users#update
-            users_destroy GET  /users/destroy(.:format)                                                                 users#destroy
-       rails_service_blob GET  /rails/active_storage/blobs/:signed_id/*filename(.:format)                               active_storage/blobs#show
-rails_blob_representation GET  /rails/active_storage/representations/:signed_blob_id/:variation_key/*filename(.:format) active_storage/representations#show
-       rails_disk_service GET  /rails/active_storage/disk/:encoded_key/*filename(.:format)                              active_storage/disk#show
-update_rails_disk_service PUT  /rails/active_storage/disk/:encoded_token(.:format)                                      active_storage/disk#update
-     rails_direct_uploads POST /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
+                   Prefix Verb   URI Pattern                                                                              Controller#Action
+              items_index GET    /items/index(.:format)                                                                   items#index
+                items_new GET    /items/new(.:format)                                                                     items#new
+             items_create POST   /items/create(.:format)                                                                  items#create
+               items_show GET    /items/show(.:format)                                                                    items#show
+               items_edit GET    /items/edit(.:format)                                                                    items#edit
+             items_update PATCH  /items/update(.:format)                                                                  items#update
+            items_destroy DELETE /items/destroy(.:format)                                                                 items#destroy
+              users_index GET    /users/index(.:format)                                                                   users#index
+                users_new GET    /users/new(.:format)                                                                     users#new
+             users_create POST   /users/create(.:format)                                                                  users#create
+               users_show GET    /users/show(.:format)                                                                    users#show
+               users_edit GET    /users/edit(.:format)                                                                    users#edit
+             users_update PATCH  /users/update(.:format)                                                                  users#update
+            users_destroy DELETE /users/destroy(.:format)                                                                 users#destroy
+       rails_service_blob GET    /rails/active_storage/blobs/:signed_id/*filename(.:format)                               active_storage/blobs#show
+rails_blob_representation GET    /rails/active_storage/representations/:signed_blob_id/:variation_key/*filename(.:format) active_storage/representations#show
+       rails_disk_service GET    /rails/active_storage/disk/:encoded_key/*filename(.:format)                              active_storage/disk#show
+update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:format)                                      active_storage/disk#update
+     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create

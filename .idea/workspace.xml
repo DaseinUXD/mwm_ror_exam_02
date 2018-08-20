@@ -2,25 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bc5db9b-ce2e-4583-b6d4-2aa0de9a4725" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_form_item_add.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_table_items.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_table_users.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf653db3-72f5-404d-8ac6-8527abcf0020.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf653db3-72f5-404d-8ac6-8527abcf0020.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf653db3-72f5-404d-8ac6-8527abcf0020/storage_v2/_src_/database/mwm_ror_exam_02_development.-EAf-Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf653db3-72f5-404d-8ac6-8527abcf0020/storage_v2/_src_/database/mwm_ror_exam_02_development.-EAf-Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/mwm_ror_exam_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mwm_ror_exam_02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/railways.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/collection_items_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/create.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/collection_item.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/create.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/destroy.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/collection_items/update.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_flash.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_flash.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180818050719_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180819220626_create_collection_items.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/collection_items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/collections.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/collection_item_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/collection_item_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +48,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@db_migrate__mwm_ror_exam_02.rcov" NAME="db:migrate: mwm_ror_exam_02 Coverage Results" MODIFIED="1534707060363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
-    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@Rails_console__mwm_ror_exam_02.rcov" NAME="Rails console: mwm_ror_exam_02 Coverage Results" MODIFIED="1534662312881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
-    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@Development__mwm_ror_exam_02.rcov" NAME="Development: mwm_ror_exam_02 Coverage Results" MODIFIED="1534715672774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@db_migrate__mwm_ror_exam_02.rcov" NAME="db:migrate: mwm_ror_exam_02 Coverage Results" MODIFIED="1534720981217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@Rails_console__mwm_ror_exam_02.rcov" NAME="Rails console: mwm_ror_exam_02 Coverage Results" MODIFIED="1534723349819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@Development__mwm_ror_exam_02.rcov" NAME="Development: mwm_ror_exam_02 Coverage Results" MODIFIED="1534740655113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@db_migrate_reset__mwm_ror_exam_02.rcov" NAME="db:migrate:reset: mwm_ror_exam_02 Coverage Results" MODIFIED="1534720109695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
     <SUITE FILE_PATH="coverage/mwm_ror_exam_02@db_create__mwm_ror_exam_02.rcov" NAME="db:create: mwm_ror_exam_02 Coverage Results" MODIFIED="1534568493192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
-    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@routes__mwm_ror_exam_02.rcov" NAME="routes: mwm_ror_exam_02 Coverage Results" MODIFIED="1534663495729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
-    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@annotate_routes__mwm_ror_exam_02.rcov" NAME="annotate_routes: mwm_ror_exam_02 Coverage Results" MODIFIED="1534716125702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@annotate_models__mwm_ror_exam_02.rcov" NAME="annotate_models: mwm_ror_exam_02 Coverage Results" MODIFIED="1534719876086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@annotate_routes__mwm_ror_exam_02.rcov" NAME="annotate_routes: mwm_ror_exam_02 Coverage Results" MODIFIED="1534720029830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@db_migrate_status__mwm_ror_exam_02.rcov" NAME="db:migrate:status: mwm_ror_exam_02 Coverage Results" MODIFIED="1534720219359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@routes__mwm_ror_exam_02.rcov" NAME="routes: mwm_ror_exam_02 Coverage Results" MODIFIED="1534740086663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
+    <SUITE FILE_PATH="coverage/mwm_ror_exam_02@remove_routes__mwm_ror_exam_02.rcov" NAME="remove_routes: mwm_ror_exam_02 Coverage Results" MODIFIED="1534719970532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mwm_ror_exam_02" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -89,39 +112,7 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails mwm_ror_exam_02: development" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mwm_ror_exam_02_development: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="users: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Rails mwm_ror_exam_02: production" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails mwm_ror_exam_02: test" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails mwm_ror_exam_02: test" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails mwm_ror_exam_02: test" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mwm_ror_exam_02_test: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails mwm_ror_exam_02: test" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mwm_ror_exam_02_test: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -130,64 +121,72 @@
     <session id="885819825">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="9" />
+          <entry key="Gemfile" value="12" />
           <entry key="css" value="3" />
-          <entry key="erb" value="44" />
-          <entry key="js" value="8" />
+          <entry key="erb" value="72" />
+          <entry key="js" value="10" />
           <entry key="json" value="2" />
           <entry key="key" value="1" />
           <entry key="rake" value="1" />
-          <entry key="rb" value="66" />
-          <entry key="users" value="3" />
-          <entry key="yml" value="8" />
+          <entry key="rb" value="91" />
+          <entry key="users" value="5" />
+          <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="Database Element" value="3" />
+          <entry key="Database Element" value="5" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="44" />
-          <entry key="Ruby" value="76" />
-          <entry key="YAML" value="8" />
+          <entry key="RHTML" value="72" />
+          <entry key="Ruby" value="104" />
+          <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="121" />
-          <entry key="Ruby Console" value="38" />
+          <entry key="Gemfile" value="306" />
+          <entry key="Ruby Console" value="275" />
           <entry key="css" value="35" />
-          <entry key="erb" value="1495" />
+          <entry key="erb" value="2862" />
           <entry key="js" value="107" />
-          <entry key="rb" value="1636" />
-          <entry key="txt" value="236" />
-          <entry key="yml" value="82" />
+          <entry key="rb" value="3303" />
+          <entry key="txt" value="461" />
+          <entry key="yml" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="35" />
           <entry key="JavaScript" value="107" />
-          <entry key="PLAIN_TEXT" value="236" />
-          <entry key="RHTML" value="1495" />
-          <entry key="Ruby" value="1795" />
-          <entry key="YAML" value="82" />
+          <entry key="PLAIN_TEXT" value="461" />
+          <entry key="RHTML" value="2862" />
+          <entry key="Ruby" value="3884" />
+          <entry key="YAML" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything">
         <counts>
-          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="6" />
+          <entry key="RunAnything - SHIFT_HOLD" value="1" />
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Bundler" value="1" />
+          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="17" />
           <entry key="RunAnythingMainListModel: RunAnything - execution - Run configurations" value="1" />
           <entry key="RunAnythingMainListModel: RunAnything - execution - rake" value="1" />
         </counts>
@@ -199,70 +198,17 @@
     <favorites_list name="mwm_ror_exam_02" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gemfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/collection_items_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config/routes.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/collection_item.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -279,23 +225,36 @@
       <find>simple_form</find>
       <find>.yml</find>
       <find>param</find>
+      <find>collection_</find>
+      <find>simple</find>
+      <find>h</find>
+      <find>d</find>
+      <find>log out</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>D:\Desktop\mwm_ror_exam_02</dir>
     </dirStrings>
   </component>
   <component name="GeneratorOptions">
+    <option name="SKIP" value="false" />
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
     <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add_item_tables" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/config/manifest.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
@@ -307,23 +266,31 @@
         <option value="$PROJECT_DIR$/app/views/shared/navbar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/body.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_form_user.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
-        <option value="$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180819214331_create_collections.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/collection_item.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/collection_items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/item.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_flash.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/create.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/items/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/shared/_table_items.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_table_users.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
       </list>
     </option>
   </component>
@@ -363,59 +330,9 @@
         <expanded-state>
           <State />
           <State>
-            <id>Angular</id>
-          </State>
-          <State>
-            <id>BashSupport</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Data flowJavaScript</id>
-          </State>
-          <State>
-            <id>Dockerfile</id>
-          </State>
-          <State>
-            <id>ECMAScript 6 migration aidsJavaScript</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Internationalization</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>Ruby</id>
-          </State>
-          <State>
             <id>SQL</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Action Cable</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -423,98 +340,98 @@
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="19-08-2018">
-        <observation name="false" value="149.0" />
+        <observation name="false" value="193.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="19-08-2018">
-        <observation name="false" value="148.0" />
+        <observation name="false" value="192.0" />
         <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="false" value="35.0" />
-        <observation name="true" value="57.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="false" value="38.0" />
+        <observation name="true" value="66.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="false" value="75.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="false" value="87.0" />
         <observation name="true" value="17.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="false" value="79.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="false" value="91.0" />
         <observation name="true" value="13.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="false" value="92.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="false" value="104.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="false" value="82.0" />
-        <observation name="true" value="10.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="false" value="92.0" />
+        <observation name="true" value="12.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="19-08-2018">
-        <observation name="false" value="146.0" />
+        <observation name="false" value="190.0" />
         <observation name="true" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -522,9 +439,9 @@
         <observation name="cancelled" value="1.0" />
       </dailyData>
       <dailyData date="19-08-2018">
-        <observation name="cancelled" value="737.0" />
-        <observation name="explicitSelect" value="50.0" />
-        <observation name="typedSelect" value="99.0" />
+        <observation name="cancelled" value="1028.0" />
+        <observation name="explicitSelect" value="74.0" />
+        <observation name="typedSelect" value="119.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -532,7 +449,7 @@
         <observation name="BASIC" value="1.0" />
       </dailyData>
       <dailyData date="19-08-2018">
-        <observation name="BASIC" value="212.0" />
+        <observation name="BASIC" value="273.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -540,13 +457,13 @@
         <observation name="count" value="1.0" />
       </dailyData>
       <dailyData date="19-08-2018">
-        <observation name="count" value="886.0" />
+        <observation name="count" value="1221.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="19-08-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="297.0" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -554,79 +471,79 @@
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="19-08-2018">
-        <observation name="average" value="-471.744108" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="-1039.776623" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-10008.0" />
-        <observation name="variance" value="2750510.929378" />
+        <observation name="variance" value="5609963.227445" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="19-08-2018">
-        <observation name="average" value="0.10101" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="0.083117" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="3.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.220161" />
+        <observation name="variance" value="0.196686" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="19-08-2018">
-        <observation name="average" value="-1078.622896" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="-1011.753247" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1158.0" />
-        <observation name="variance" value="48338.348385" />
+        <observation name="variance" value="86562.149114" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="19-08-2018">
-        <observation name="average" value="-128.148148" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="-141.090909" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="120.0" />
         <observation name="min" value="-1000.0" />
-        <observation name="variance" value="75959.229487" />
+        <observation name="variance" value="84941.256481" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="57.0" />
-        <observation name="average" value="0.655738" />
-        <observation name="count" value="183.0" />
+        <observation name="UNDEFINED" value="89.0" />
+        <observation name="average" value="0.637681" />
+        <observation name="count" value="207.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.75073" />
+        <observation name="variance" value="0.751992" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="19-08-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="297.0" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -634,32 +551,32 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="19-08-2018">
-        <observation name="average" value="6.117845" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="6.116883" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="25.0" />
         <observation name="min" value="1.0" />
-        <observation name="variance" value="15.516565" />
+        <observation name="variance" value="14.23975" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="19-08-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="297.0" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -667,42 +584,42 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="19-08-2018">
-        <observation name="UNDEFINED" value="149.0" />
+        <observation name="UNDEFINED" value="193.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="19-08-2018">
-        <observation name="average" value="6662.558923" />
-        <observation name="count" value="297.0" />
+        <observation name="average" value="7244.275325" />
+        <observation name="count" value="385.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="19243810.190568" />
+        <observation name="variance" value="18268492.041358" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="19-08-2018">
-        <observation name="0" value="42.0" />
-        <observation name="1" value="6.0" />
+        <observation name="0" value="65.0" />
+        <observation name="1" value="7.0" />
         <observation name="3" value="2.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="19-08-2018">
-        <observation name="total" value="35.0" />
+        <observation name="total" value="46.0" />
         <observation name="withMnemonics" value="1.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
       <dailyData date="19-08-2018">
-        <observation name="0" value="2.0" />
-        <observation name="1" value="13.0" />
+        <observation name="0" value="3.0" />
+        <observation name="1" value="25.0" />
         <observation name="19" value="1.0" />
-        <observation name="2" value="9.0" />
-        <observation name="3" value="5.0" />
-        <observation name="4" value="5.0" />
-        <observation name="5" value="8.0" />
+        <observation name="2" value="12.0" />
+        <observation name="3" value="7.0" />
+        <observation name="4" value="8.0" />
+        <observation name="5" value="10.0" />
         <observation name="6" value="2.0" />
-        <observation name="7" value="4.0" />
+        <observation name="7" value="5.0" />
         <observation name="9" value="1.0" />
       </dailyData>
     </factor>
@@ -712,8 +629,8 @@
         <observation name="count" value="2.0" />
       </dailyData>
       <dailyData date="19-08-2018">
-        <observation name="average" value="264.435685" />
-        <observation name="count" value="482.0" />
+        <observation name="average" value="262.534602" />
+        <observation name="count" value="578.0" />
       </dailyData>
     </factor>
   </component>
@@ -722,6 +639,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -744,40 +691,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mwm_ror_exam_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mwm_ror_exam_02" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file://D:/Desktop/mwm_ror_exam_02/Gemfile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -788,9 +713,10 @@
   </component>
   <component name="RunAnythingCache">
     <option name="b">
-      <command value="bundle update" />
       <command value="db:migrate: mwm_ror_exam_02" />
       <command value="rake annotate_routes" />
+      <command value="bundle Clean" />
+      <command value="bundle update" />
       <command value="bundle install" />
     </option>
   </component>
@@ -806,22 +732,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.annotate_routes: mwm_ror_exam_02">
-    <configuration name="Rails console: mwm_ror_exam_02" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="mwm_ror_exam_02" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Rails.Development: mwm_ror_exam_02">
     <configuration name="Development: mwm_ror_exam_02" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="mwm_ror_exam_02" />
@@ -880,27 +791,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="db:create: mwm_ror_exam_02" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="mwm_ror_exam_02" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="db:migrate: mwm_ror_exam_02" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="mwm_ror_exam_02" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -915,6 +805,45 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate:reset: mwm_ror_exam_02" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="mwm_ror_exam_02" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate:reset" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate:status: mwm_ror_exam_02" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="mwm_ror_exam_02" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate:status" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -984,19 +913,19 @@
       <item itemvalue="Rake.spec: mwm_ror_exam_02" />
       <item itemvalue="Rails.Production: mwm_ror_exam_02" />
       <item itemvalue="Rails.Development: mwm_ror_exam_02" />
-      <item itemvalue="Rake.db:create: mwm_ror_exam_02" />
-      <item itemvalue="Rake.db:migrate: mwm_ror_exam_02" />
-      <item itemvalue="IRB console.Rails console: mwm_ror_exam_02" />
       <item itemvalue="Rake.routes: mwm_ror_exam_02" />
       <item itemvalue="Rake.annotate_routes: mwm_ror_exam_02" />
+      <item itemvalue="Rake.db:migrate:reset: mwm_ror_exam_02" />
+      <item itemvalue="Rake.db:migrate: mwm_ror_exam_02" />
+      <item itemvalue="Rake.db:migrate:status: mwm_ror_exam_02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Rake.annotate_routes: mwm_ror_exam_02" />
+        <item itemvalue="Rake.db:migrate:status: mwm_ror_exam_02" />
         <item itemvalue="Rake.db:migrate: mwm_ror_exam_02" />
+        <item itemvalue="Rake.db:migrate:reset: mwm_ror_exam_02" />
+        <item itemvalue="Rake.annotate_routes: mwm_ror_exam_02" />
         <item itemvalue="Rake.routes: mwm_ror_exam_02" />
-        <item itemvalue="IRB console.Rails console: mwm_ror_exam_02" />
-        <item itemvalue="Rake.db:create: mwm_ror_exam_02" />
       </list>
     </recent_temporary>
   </component>
@@ -1010,12 +939,15 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
+      <branch name="add_item_tables" repository="D:\Desktop\mwm_ror_exam_02" original="true" />
+      <branch name="add_item_tables" repository="D:\Desktop\mwm_ror_exam_02" original="true" />
       <changelist id="5bc5db9b-ce2e-4583-b6d4-2aa0de9a4725" name="Default Changelist" comment="" />
       <created>1534551279451</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534551279451</updated>
+      <running>true</running>
+      <updated>1534722758175</updated>
       <workItem from="1534551280819" duration="27000" />
       <workItem from="1534551315159" duration="1216000" />
       <workItem from="1534552668600" duration="16171000" />
@@ -1023,40 +955,105 @@
       <workItem from="1534646442247" duration="4724000" />
       <workItem from="1534658594223" duration="1045000" />
       <workItem from="1534661831712" duration="1609000" />
-      <workItem from="1534663445628" duration="14060000" />
+      <workItem from="1534663445628" duration="17775000" />
+      <workItem from="1534721720288" duration="151000" />
+      <workItem from="1534721909281" duration="134000" />
+      <workItem from="1534722076383" duration="190000" />
+      <workItem from="1534722301771" duration="379000" />
+      <workItem from="1534722709286" duration="49000" />
     </task>
+    <task active="true" id="LOCAL-00002" summary="Items Table">
+      <branch name="add_item_tables" repository="D:\Desktop\mwm_ror_exam_02" />
+      <created>1534722726644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534722758179</updated>
+      <workItem from="1534722758247" duration="16678000" />
+      <workItem from="1534739672888" duration="130000" />
+      <workItem from="1534739831794" duration="95000" />
+      <workItem from="1534739952529" duration="1221000" />
+      <workItem from="1534741201760" duration="603000" />
+      <workItem from="1534742356329" duration="267000" />
+      <workItem from="1534742663436" duration="7000" />
+      <workItem from="1534742875210" duration="399000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <option name="clearContext" value="false" />
+    <option name="createChangelist" value="false" />
+    <option name="createBranch" value="false" />
+    <option name="useBranch" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40744000" />
+    <option name="totallyTimeSpent" value="64762000" />
+    <option name="autoMode" value="false" />
+    <option name="showClosedTasks" value="false" />
+    <option name="showSpentTimeFromLastPost" value="true" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-171" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72202164" visible="true" weight="0.122068234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72202164" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="1" sideWeight="0.22426471" side_tool="true" weight="0.116145834" />
       <window_info id="DB Browser" order="2" weight="0.32995737" />
       <window_info id="Favorites" order="3" sideWeight="0.27797833" side_tool="true" weight="0.122068234" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49946696" weight="0.32921347" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32975295" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49733475" weight="0.2719101" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49413645" weight="0.2819383" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989339" weight="0.32921347" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4978678" visible="true" weight="0.32921347" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49573562" weight="0.5752809" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" content_ui="combo" id="Routes" order="12" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.32921347" />
+      <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49946696" weight="0.32921347" />
+      <window_info anchor="bottom" content_ui="combo" id="Routes" order="12" sideWeight="0.50586355" side_tool="true" weight="0.280837" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.5026652" side_tool="true" weight="0.3775281" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50067115" side_tool="true" weight="0.32921347" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.21055438" />
+      <window_info anchor="right" id="Time Tracking" order="0" weight="0.1401919" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.21055438" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72202164" visible="true" weight="0.12633263" />
+      <window_info id="Structure" order="1" sideWeight="0.22426471" side_tool="true" weight="0.116145834" />
+      <window_info id="DB Browser" order="2" weight="0.32995737" />
+      <window_info id="Favorites" order="3" sideWeight="0.27797833" side_tool="true" weight="0.122068234" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49946696" weight="0.32921347" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32975295" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49573562" visible="true" weight="0.28202248" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989339" weight="0.32921347" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49626866" weight="0.5752809" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49946696" weight="0.32921347" />
+      <window_info anchor="bottom" content_ui="combo" id="Routes" order="12" sideWeight="0.5042644" side_tool="true" weight="0.40786517" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.5026652" side_tool="true" weight="0.3775281" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50067115" side_tool="true" weight="0.32921347" />
+      <window_info anchor="right" id="Time Tracking" order="0" weight="0.1401919" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.21055438" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1091,103 +1088,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="9029" column="2" selection-start-line="9029" selection-start-column="2" selection-end-line="9029" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/page_header.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="3942" column="5" lean-forward="true" selection-start-line="3942" selection-start-column="5" selection-end-line="3942" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/navbar.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/body.html.erb" />
-    <entry file="file://$PROJECT_DIR$/config/master.key">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionpack-5.2.1/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/update.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_template.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1198,22 +1102,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1222,38 +1112,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_flash.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/xray-rails-0.3.1/app/views/_xray_bar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1262,129 +1122,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/destroy.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/create.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/models/collection.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180819214331_create_collections.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180819220626_create_collection_items.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/collection_items_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/collection_item.rb" />
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="-795">
+          <caret line="4233" column="7" selection-start-line="4233" selection-start-column="7" selection-end-line="4233" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="177" column="9" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180818050719_create_users.rb" />
+    <entry file="file://$PROJECT_DIR$/test/fixtures/collection_items.yml" />
+    <entry file="file://$PROJECT_DIR$/test/fixtures/collections.yml" />
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/destroy.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://bf653db3-72f5-404d-8ac6-8527abcf0020/database/mwm_ror_exam_02_development/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="password_digest" enabled="false" />
-            <column name="password_confirmation" enabled="false" />
-            <column name="created_at" enabled="false" />
-            <column name="updated_at" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/collection.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180819214331_create_collections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180818050719_create_users.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb_bkup" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180819231734_create_items.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180819231516_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_template.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180819220626_create_collection_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="18">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_user_register.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_item_add.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_flash.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_form_user_login.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bf653db3-72f5-404d-8ac6-8527abcf0020/database/mwm_ror_exam_02_development/schema/public/table/users" />
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="378">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/collection_item.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/create.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/collection_items_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_table_users.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_table_items.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="563">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

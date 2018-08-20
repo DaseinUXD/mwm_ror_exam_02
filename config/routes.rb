@@ -15,20 +15,20 @@
 #      rails_direct_uploads POST /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
 
 Rails.application.routes.draw do
-  get 'collection_items/index'
-  get 'collection_items/new'
-  post 'collection_items/create'
-  get 'collection_items/show'
-  get 'collection_items/edit'
-  get 'collection_items/update'
-  get 'collection_items/destroy'
+  get 'items/index'
+  get 'items/new'
+  post 'items/create'
+  get 'items/show'
+  get 'items/edit'
+  patch 'items/update'
+  delete 'items/destroy'
   get 'users/index'
   get 'users/new'
   post 'users/create'
   get 'users/show'
   get 'users/edit'
-  get 'users/update'
-  get 'users/destroy'
+  patch 'users/update'
+  delete 'users/destroy'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
 end

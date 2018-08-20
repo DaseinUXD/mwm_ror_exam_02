@@ -1,12 +1,11 @@
 <!-- generated from the scaffold form template -->
-<%= simple_form_for @user, :url => { :action => "show" } do |f| %>
+<%= simple_form_for @user, :url => { :action => "show" }, :method =>"post"  do |f| %>
   <fieldset>
     <legend>Login</legend>
 
     <div class="form-inputs">
       <%= f.input :email %>
       <%= f.input :password %>
-      <%#= f.input :alias %>
     </div>
 
     <div class="form-actions">

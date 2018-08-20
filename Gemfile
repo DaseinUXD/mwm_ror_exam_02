@@ -26,8 +26,24 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-# build forms ith simple way EVEN WITH BOOTSTRAP
+# build forms the "simple way" add BOOTSTRAP
+# https://github.com/plataformatec/simple_form
 gem 'simple_form'
+
+# build tables with tabulatr2
+# https://github.com/metaminded/tabulatr2
+# gem 'tabulator2'
+
+gem "watu_table_builder", :require => "table_builder"
+
+
+# build tables the "simple way" add BOOTSTRAP
+# https://github.com/lunich/table_for
+# gem 'table_for_collection'
+
+# build tables with multiple settings
+# https://github.com/hunterae/table_for
+# gem 'table_for'
 
 
 # Use ActiveStorage variant
@@ -38,6 +54,8 @@ gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
+gem 'hirb'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

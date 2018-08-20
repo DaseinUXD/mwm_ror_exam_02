@@ -11,17 +11,17 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @user.save
     if @user.save
-      flash[:notice] = "New user created successfully"
-      puts '+++++ @item.id +++++'
-      puts @item.id
-      redirect_to '/users/show'
+      flash[:notice] = "Congratulations #{@user.first_name}, you are now registered. "
+      redirect_to '/items/index'
     else
+      flash[:alert] = "User registration has failed. Please review errors below."
       render 'new'
     end
   end
 
   def show
-    @user = User.find(@user.id)
+    redirect_to '/items/index'
+    # @user = User.find(params[:id])
   end
 
   def edit
