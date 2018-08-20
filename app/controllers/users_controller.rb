@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     @user.save
     if @user.save
       flash[:notice] = "Congratulations #{@user.first_name}, you are now registered. "
-      redirect_to '/items/index'
+      redirect_to '/items'
     else
       flash[:alert] = "User registration has failed. Please review errors below."
       render 'new'
@@ -20,8 +20,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    redirect_to '/items/index'
-    # @user = User.find(params[:id])
   end
 
   def edit

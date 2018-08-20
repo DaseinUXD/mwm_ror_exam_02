@@ -1,0 +1,20 @@
+<!-- generated from the scaffold form template -->
+<!--, :url => { :action => "create" }-->
+<%= simple_form_for @item do |f| %>
+  <fieldset>
+    <legend>Add an Item</legend>
+
+    <div class="form-inputs">
+      <%= f.input :name, inline_label: 'Name:' %>
+      <%= f.input :info, inline_label: 'Information' %>
+      <%= f.input :user_id, inline_label: 'User ID' %>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit, "Add Item",
+                   class:      "btn btn-primary",
+                   formaction: "items",
+                   formmethod: "post" %>
+    </div>
+  </fieldset>
+<% end %>

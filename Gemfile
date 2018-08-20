@@ -30,16 +30,8 @@ gem 'bcrypt', '~> 3.1.7'
 # https://github.com/plataformatec/simple_form
 gem 'simple_form'
 
-# build tables with tabulatr2
-# https://github.com/metaminded/tabulatr2
-# gem 'tabulator2'
-
 gem "watu_table_builder", :require => "table_builder"
 
-
-# build tables the "simple way" add BOOTSTRAP
-# https://github.com/lunich/table_for
-# gem 'table_for_collection'
 
 # build tables with multiple settings
 # https://github.com/hunterae/table_for

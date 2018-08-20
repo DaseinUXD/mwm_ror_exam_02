@@ -1,6 +1,7 @@
 class ItemsController < ApplicationController
   def index
     @items = Item.all
+    @item = Item.new
   end
 
   def new
@@ -12,7 +13,7 @@ class ItemsController < ApplicationController
     @item.save
     if @item.save
       flash[:notice] = "Congratulations #{@item.name}, was created successfully. "
-      redirect_to '/items/index'
+      redirect_to '/items'
     else
       flash[:alert] = "User registration has failed. Please review errors below."
       render 'index'

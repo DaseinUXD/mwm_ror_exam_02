@@ -1,21 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-<!--    <%#= current_user.name %>>-->
+    <!--    <%#= current_user.name %>>-->
   </a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/items">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-
     </ul>
-    <form class="form-inline my-2 my-lg-0" action="/users/destroy" method="post">
-      <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token %>">
-      <input type="hidden" name="_method" value="delete">
-      <input type="submit" class="btn btn-light" value="Log Out">
-    </form>
+    <% if current_user %>
+      <form class="form-inline my-2 my-lg-0" action="/sessions/<%= current_user.id %>>" method="post">
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+        <input type="hidden" name="_method" value="delete">
+        <input type="submit" class="btn btn-light" value="Log Out">
+      </form>
+    <% end %>
   </div>
 </nav>
