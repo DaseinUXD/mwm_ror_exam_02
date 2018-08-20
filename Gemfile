@@ -30,19 +30,32 @@ gem 'bcrypt', '~> 3.1.7'
 # https://github.com/plataformatec/simple_form
 gem 'simple_form'
 
+# Rails builder for creating tables and calendars inspired by ActionView's FormBuilder
+# https://rubygems.org/gems/watu_table_builder
 gem "watu_table_builder", :require => "table_builder"
 
+# Use jquery-tablesorter.js in Rails project with server-side filtering, pagination, and sorting
+gem 'table_sortable'
 
 # build tables with multiple settings
 # https://github.com/hunterae/table_for
 # gem 'table_for'
 
+# rails-footnotes
+# gem 'rails-footnotes'
 
-# Use ActiveStorage variant
+# sprockets-rails
+# gem 'sprockets-rails'
+
+# rspec-rails
+# gem 'rspec-rails'
+
+#
+
+# Use ActiveStorage variant to manage images
 # gem 'mini_magick', '~> 4.8'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -57,6 +70,7 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+
   gem 'annotate'
   gem 'awesome_print'
   gem 'better_errors'

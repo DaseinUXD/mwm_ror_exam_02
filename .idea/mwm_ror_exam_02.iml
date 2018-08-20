@@ -98,6 +98,7 @@
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v4.0.1, ruby-2.4.4-p296 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, ruby-2.4.4-p296 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, ruby-2.4.4-p296 (1)) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="table_sortable (v0.3.2, ruby-2.4.4-p296 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, ruby-2.4.4-p296 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, ruby-2.4.4-p296 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.8, ruby-2.4.4-p296 (1)) [gem]" level="application" />

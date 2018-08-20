@@ -1,9 +1,10 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+  skip_before_action :verify_authenticity_token
+  # protect_from_forgery prepend: true, with: :exception
 
   def current_user
     User.find(session[:user_id]) if session[:user_id]
-    puts "current_user created?"
+    puts "application_controller current_user says: current_user created"
   end
   helper_method :current_user
 

@@ -6,10 +6,10 @@
     <legend>Registration</legend>
 
     <div class="form-inputs">
-      <%= f.input :first_name %>
-      <%= f.input :last_name %>
-      <%= f.input :email %>
-      <%= f.input :password %>
+      <%= f.input :first_name, type: "text", value: ""%>
+      <%= f.input :last_name, type: "text", value: "" %>
+      <%= f.input :email, autocomplete: "off"%>
+      <%= f.input :password, value: "" %>
       <%= f.input :password_confirmation, label: false %>
       <%#= f.input :alias %>
     </div>

@@ -1,24 +1,25 @@
 class SessionsController < ApplicationController
   def index
-    # if session[:user_id]
-    #   redirect_to '/items'
-    # else
-    #   puts 'sessions controller index failed?'
-    # end
+    if session[:user_id]
+      puts 'SessionsController index says: in session'
+      # redirect_to '/items'
+    else
+      puts 'SessionsController index says: NOT in session?'
+    end
   end
 
   def new
   end
 
   def create
-    @user = User.find_by_email(params[:email])
+    user = User.find_by_email(:user_params.email)
+    puts 'SessionsController create says: this @user is in session'
+    puts user
 
-    if @user
-      if @user.try(:authenticate, params[:password])
-        session[:user_id]=@user.id
-        redirect_to items_index_path
+      if user.try(:authenticate, params[:password])
+        session[:user_id] = @user.id
+        render '/items/index'
       end
-    end
   end
 
   def show

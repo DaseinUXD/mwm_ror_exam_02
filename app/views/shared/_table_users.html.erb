@@ -1,5 +1,5 @@
 <%= table_for(@users,
-              :html => { :class => 'table table-striped table-bordered table-hover' }) do |t| %>
+              :html => { :class => 'table table-striped table-bordered table-hover', :sortable => true }) do |t| %>
   <%= t.head(:class => 'thead-dark') do %>
     <%= t.r(:class => 'text-center') do %>
       <%= t.h('First Name') %>
@@ -7,6 +7,7 @@
       <%= t.h('Email') %>
     <% end %>
   <% end %>
+
   <%= t.body do |user| %>
     <%= t.r do %>
       <%= t.d(h(user.first_name)) %>
