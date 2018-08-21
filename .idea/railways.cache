@@ -1,4 +1,6 @@
                    Prefix Verb   URI Pattern                                                                              Controller#Action
+                 register GET    /register(.:format)                                                                      users#new
+                          POST   /register(.:format)                                                                      users#create
                     items GET    /items(.:format)                                                                         items#index
                           POST   /items(.:format)                                                                         items#create
                  new_item GET    /items/new(.:format)                                                                     items#new

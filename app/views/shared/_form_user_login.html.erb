@@ -1,6 +1,6 @@
 <!-- generated from the scaffold form template -->
 <!--  :url => { :action => "/sessions/create" }, :method =>"post"-->
-<%= simple_form_for @user do |f| %>
+<%= simple_form_for :session do |f| %>
   <fieldset>
     <legend>Login</legend>
 
@@ -11,7 +11,7 @@
 
     <div class="form-actions">
       <%= f.button :submit, 'Log In', class: "btn btn-success",
-                   formaction:               "sessions",
+                   formaction:               "/sessions",
                    formmethod:               "post" %>
     </div>
   </fieldset>

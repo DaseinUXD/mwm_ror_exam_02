@@ -1,7 +1,7 @@
 <!-- generated from the scaffold form template -->
 <!--, :url => { :action => "create" }-->
 
-<%= simple_form_for @user do |f| %>
+<%= simple_form_for(@user, url: register_path)  do |f| %>
   <fieldset>
     <legend>Registration</legend>
 
@@ -11,13 +11,11 @@
       <%= f.input :email, autocomplete: "off"%>
       <%= f.input :password, value: "" %>
       <%= f.input :password_confirmation, label: false %>
-      <%#= f.input :alias %>
     </div>
 
     <div class="form-actions">
-      <%= f.button :submit, "Register",
+      <%= f.button :submit, "Create my account",
                    class:      "btn btn-primary",
-                   formaction: "users",
                    formmethod: "post" %>
     </div>
   </fieldset>

@@ -1,7 +1,37 @@
 <div class="row">
-  <div class="col-6">
-  </div>
-  <div class="col-6">
-    <p class="form-text text-muted text-right">© <span> <%= Time.zone.now.strftime("%Y") %></span> mark w matthews, phd</p>
+  <!--  <div class="col-12 m-4">-->
+  <!--    <p>-->
+  <!--      <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">-->
+  <!--        Request Parameters-->
+  <!--      </button>-->
+  <!--    </p>-->
+  <!--    <div class="collapse" id="collapseExample">-->
+  <!--      <div class="card card-body">-->
+  <!--        <span class="text-monospace">-->
+  <%#= debug(params) if Rails.env.development? %>
+  <!--        </span>-->
+
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <div class="col-12 m-4">
+    <div class="alert alert-dark alert-dismissible" role="alert">
+      <h5 class="h4 alert-heading">Request Parameters</h5>
+
+      <span class="text-monospace"><%= debug(params) if Rails.env.development? %></span>
+      <button type="button" class="close" data-dismiss="alert">&#x2717;</button>
+    </div>
+
   </div>
 </div>
+
+
+  <div class="row">
+    <div class="col-6">
+    </div>
+    <div class="col-6">
+      <p class="form-text text-muted text-right">© <span> <%= Time.zone.now.strftime("%Y") %></span> mark w
+        matthews, phd
+      </p>
+    </div>
+  </div>

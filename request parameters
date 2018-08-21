@@ -1,0 +1,9 @@
+
+{"utf8"=>"✓",
+ "authenticity_token"=>"pUhMfZePWEg8R3sO2ag8+yE3xSnWUacc3D6xnwvL/pLiQ3nUBtKnWjRGcJjaP8Wn9gFbhTJ+aN3B9kpWcbwGqQ==",
+ "user"=>{
+     "email"=>"bono@u2.com",
+     "password"=>"123456789"},
+     "commit"=>"Log In",
+     "controller"=>"sessions",
+     "action"=>"create"}

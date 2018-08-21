@@ -12,14 +12,18 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by_email(:user_params.email)
-    puts 'SessionsController create says: this @user is in session'
-    puts user
+   @user = User.find_by_email(request.params['session']['email'])
+   # debugger
+   if @user
+     flash[:notice] = "Welocome back #{@user.first_name}. Your are is now logged into session"
+   end
 
-      if user.try(:authenticate, params[:password])
-        session[:user_id] = @user.id
-        render '/items/index'
-      end
+    # if user.try(:authenticate, '123456789')
+    #   puts 'user try worked'
+    #   # session[:user_id] = @user.id
+    #   # puts session[:user_id]
+    #   # redirect_to '/items/index'
+    # end
   end
 
   def show

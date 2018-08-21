@@ -32,9 +32,14 @@
 #      rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
 
 Rails.application.routes.draw do
-resources :items
-resources :users
-resources :sessions
+  # CUSTOM ROUTES FOR REGISTERING USER #
+  get '/register', to: 'users#new'
+  post '/register', to: 'users#create'
+
+  # RESOURCE ROUTES CONTROLLERS #
+  resources :items
+  resources :users
+  resources :sessions
 
 # SESSIONS ROUTES
 #   get 'sessions/index'
