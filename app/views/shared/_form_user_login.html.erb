@@ -1,6 +1,6 @@
 <!-- generated from the scaffold form template -->
 <!--  :url => { :action => "/sessions/create" }, :method =>"post"-->
-<%= simple_form_for :session do |f| %>
+<%= simple_form_for :session, url: login_path do |f| %>
   <fieldset>
     <legend>Login</legend>
 
@@ -11,10 +11,19 @@
 
     <div class="form-actions">
       <%= f.button :submit, 'Log In', class: "btn btn-success",
-                   formaction:               "/sessions",
                    formmethod:               "post" %>
     </div>
   </fieldset>
 <% end %>
+<div class="row">
+<!--  <div class="col-2"></div>-->
+  <div class="col-12">
+    <label for="register" class="m-2">New user?</label>
+    <label id="register">
+      <%=link_to "Register now!", register_path %>
+    </label>
+  </div>
+<!--  <div class="col-3"></div>-->
+</div>
 
 
