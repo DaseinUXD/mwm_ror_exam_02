@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
 
   def current_user
     User.find(session[:user_id]) if session[:user_id]
-    puts "application_controller.rb METHOD: current_user says: 'current_user created'"
+    puts session[:user_id]
+    puts "***** application_controller.rb METHOD current_user says: 'current_user created'"
   end
   helper_method :current_user
 

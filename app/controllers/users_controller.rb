@@ -20,6 +20,12 @@ class UsersController < ApplicationController
   end
 
   def show
+    puts 'redirected to the user#show via the new profile_path'
+    @user = User.find(session[:user_id])
+    if @user
+      puts 'we have an @user last_name:  ', @user.last_name
+    end
+
   end
 
   def edit
@@ -34,6 +40,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation)
+    params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation, :alias)
   end
 end

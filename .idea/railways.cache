@@ -4,6 +4,7 @@
                     login GET    /login(.:format)                                                                         sessions#new
                           POST   /login(.:format)                                                                         sessions#create
                    logout DELETE /logout(.:format)                                                                        sessions#destroy
+                  profile GET    /profile(.:format)                                                                       users#show
                     items GET    /items(.:format)                                                                         items#index
                           POST   /items(.:format)                                                                         items#create
                  new_item GET    /items/new(.:format)                                                                     items#new
