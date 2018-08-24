@@ -41,7 +41,7 @@ Rails.application.routes.draw do
   get 'likes/destroy'
   get 'ideas/index'
   get 'ideas/new'
-  get 'ideas/create'
+  post 'ideas/create'
   get 'ideas/show'
   get 'ideas/edit'
   get 'ideas/update'

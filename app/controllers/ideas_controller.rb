@@ -7,6 +7,9 @@ class IdeasController < ApplicationController
       puts 'not made'
     end
     @ideas = Idea.all
+
+
+    @ideas_ordered = @ideas.sort_by { |a| a.likes.count}.reverse
     @idea = Idea.new
   end
 
@@ -17,9 +20,13 @@ class IdeasController < ApplicationController
   def create
     @user = User.find(session[:user_id])
     @idea = Idea.new(idea_params)
+
     @idea.user = @user
     @idea.save
     if @idea.save
+      redirect_to ideas_index_path
+    else
+      flash[:alert] = "Idea content must contain at least five (5) characters."
       redirect_to ideas_index_path
     end
   end
@@ -37,6 +44,11 @@ class IdeasController < ApplicationController
   end
 
   def destroy
+    @user = User.find(session[:user_id])
+
+    @idea = Idea.find(params[:id])
+    @idea.destroy  if @user == @idea.user
+    redirect_to ideas_index_path
   end
   private
   def idea_params

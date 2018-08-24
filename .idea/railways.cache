@@ -8,7 +8,7 @@
             likes_destroy GET    /likes/destroy(.:format)                                                                 likes#destroy
               ideas_index GET    /ideas/index(.:format)                                                                   ideas#index
                 ideas_new GET    /ideas/new(.:format)                                                                     ideas#new
-             ideas_create GET    /ideas/create(.:format)                                                                  ideas#create
+             ideas_create POST   /ideas/create(.:format)                                                                  ideas#create
                ideas_show GET    /ideas/show(.:format)                                                                    ideas#show
                ideas_edit GET    /ideas/edit(.:format)                                                                    ideas#edit
              ideas_update GET    /ideas/update(.:format)                                                                  ideas#update

@@ -6,17 +6,29 @@
   </div>
 </div>
 
-<% @ideas.each do |idea| %>
+<% @ideas_ordered.each do |idea| %>
   <div class="row">
     <div class="col-2"></div>
     <div class="col-2">
       <a href="/users/<%= idea.user.id %>"><%= idea.user.alias.titleize %></a>
       <span>says:</span>
     </div>
-    <div class="col-8 mb-3 mt-3">
+    <div class="col-6 mb-3 mt-3">
       <div class="border pb-3">
         <%= idea.content %>
       </div>
+    </div>
+    <div class="col-2 mt-4 ">
+      <% if idea.user == @user %>
+        <form action="/ideas/<%= idea.id %>" method="post">
+          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+          <input type="hidden" name="_method" value="delete">
+          <input class="btn btn-sm rounded-circle btn-outline-warning" type="submit" value="&#x2717;">
+        </form>
+
+      <% end %>
+
+
     </div>
   </div>
   <div class="row">
@@ -25,16 +37,14 @@
       <form action="/likes/create" method="post">
         <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
         <input type="hidden" name="like[idea_id]" value="<%= idea.id %>">
-        <input class="btn btn-light" type="submit" value="Like">
+        <input class="btn btn-sm btn-light" type="submit" value="Like">
       </form>
     </div>
     <div class="col-2">
       <a href="/ideas/<%= idea.id %>"><%= idea.likes.count %> people </a>
       <span>like this</span>
     </div>
-    <div class="col-4">
-
-    </div>
+    <div class="col-4"></div>
   </div>
 <% end %>
 <!--<h1>Ideas#index</h1>-->
