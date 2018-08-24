@@ -21,6 +21,7 @@ class UsersController < ApplicationController
 
   def show
     puts 'redirected to the user#show via the new profile_path'
+    # @user = current_user
     @user = User.find(session[:user_id])
     if @user
       puts 'we have an @user last_name:  ', @user.last_name
