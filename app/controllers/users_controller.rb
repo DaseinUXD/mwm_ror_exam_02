@@ -12,7 +12,9 @@ class UsersController < ApplicationController
     @user.save
     if @user.save
       flash[:notice] = "Congratulations #{@user.first_name}, you are now registered. "
-      redirect_to @user
+      session[:user_id] = @user.id
+
+      redirect_to profile_path
     else
       flash[:alert] = "User registration has failed. Please review errors below."
       render 'new'
@@ -21,8 +23,8 @@ class UsersController < ApplicationController
 
   def show
     puts 'redirected to the user#show via the new profile_path'
-    # @user = current_user
     @user = User.find(session[:user_id])
+    # @current_user
     if @user
       puts 'we have an @user last_name:  ', @user.last_name
     end

@@ -47,6 +47,7 @@ class SessionsController < ApplicationController
   def destroy
     puts 'Called session DESTROY method'
     if User.find(session[:user_id])
+    # if @current_user
       puts 'found to destroy'
       session[:user_id] = nil
       puts 'session id is now: ', session[:user_id]

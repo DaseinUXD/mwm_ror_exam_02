@@ -7,36 +7,26 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/items">Home <span class="sr-only">(current)</span></a>
+        <% if current_user %>
+          <a class="nav-link" href="#"><%= current_user.first_name %>><span class="sr-only">(current)</span></a>
+        <% else %>
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <% end %>
       </li>
     </ul>
-    <% if @user %>
-      <form class="form-inline my-2 my-lg-0" action="/sessions/<%= @user.id %>>" method="post">
+    <% if session[:user_id] %>
+      <form class="form-inline my-2 my-lg-0" action="/sessions/<%= session[:user_id]%>" method="post">
         <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
         <input type="hidden" name="_method" value="delete">
         <input type="submit" class="btn btn-light" value="Log Out">
       </form>
-    <% else %>
-      <form class="form-inline my-2 my-lg-0" action="/login" method="get">
-<!--        <input type="hidden" name="authenticity_token" value="<%#= form_authenticity_token %>">-->
-<!--        <input type="hidden" name="_method" value="delete">-->
-        <input type="submit" class="btn btn-light" value="Log In">
-      </form>
+    <%# else %>
+<!--      <form class="form-inline my-2 my-lg-0" action="/login" method="get">-->
+<!--        <!--        <input type="hidden" name="authenticity_token" value="<%##= form_authenticity_token %>">-->-->
+<!--        <!--        <input type="hidden" name="_method" value="delete">-->-->
+<!--        <input type="submit" class="btn btn-light" value="Log In">-->
+<!--      </form>-->
 
     <% end %>
-
-    <%# if current_user %>
-    <!--      <form class="form-inline my-2 my-lg-0" action="/sessions/<%#= current_user.id %>>" method="post">-->
-    <!--        <input type="hidden" name="authenticity_token" value="<%#= form_authenticity_token %>">-->
-    <!--        <input type="hidden" name="_method" value="delete">-->
-    <!--        <input type="submit" class="btn btn-light" value="Log Out">-->
-    <!--      </form>-->
-    <%# else %>
-    <!--      <form class="form-inline my-2 my-lg-0" action="/sessions/<%#= %>>" method="get">-->
-    <!--        <input type="hidden" name="authenticity_token" value="<%#= form_authenticity_token %>">-->
-    <!--        <input type="hidden" name="_method" value="delete">-->
-    <!--        <input type="submit" class="btn btn-light" value="Log In">-->
-    <!--      </form>-->
-    <%# end %>
   </div>
 </nav>
