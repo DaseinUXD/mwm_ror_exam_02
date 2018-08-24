@@ -22,12 +22,12 @@ class SessionsController < ApplicationController
     if user
       # user = user
       puts 'found user and authenticated '
-      flash[:notice]    = "Welcome back #{user.first_name}.  You are now logged in."
+      flash[:notice]    = "Welcome back #{user.name}.  You are now logged in."
       session[:user_id] = user.id
       puts 'the session user id is: ', session[:user_id]
 
       # redirect_to "/users/#{session[:user_id]}"
-      redirect_to profile_path
+      redirect_to ideas_index_path
     else
       puts 'not found user'
       flash[:alert] = "Ooops! The email and password combination entered did not work."

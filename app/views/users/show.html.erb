@@ -1,4 +1,64 @@
-<h1>Users#show</h1>
-<%= @user.first_name %>
-<%= @user.last_name %>
-<p>Find me in app/views/users/show.html.erb</p>
+<% provide(:title, 'User Profile') %>
+<div class="row">
+  <div class="col-10"></div>
+  <div class="col-2"><a class="btn btn-light"  href="/ideas/index">Bright Ideas</a></div>
+</div>
+<div class="row">
+  <div class="col-1 mt-1">
+    <p class="h4">
+      Name:
+    </p>
+  </div>
+  <div class="col-11 mt-1">
+    <p class="h4">
+      <%= @user.name.titleize %>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-1 mt-1">
+    <p class="h4">
+      Alias:
+    </p>
+  </div>
+  <div class="col-11 mt-1">
+    <p class="h4">
+      <%= @user.alias.titleize %>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-1 mt-1">
+    <p class="h4">
+      Email:
+    </p>
+  </div>
+  <div class="col-11 mt-1">
+    <p class="h4">
+      <%= @user.email %>
+    </p>
+  </div>
+</div>
+<div class="row border mt-1 mb-1"></div>
+<div class="row">
+  <div class="col-3">
+    <p class="h5">Total Number of Posts:</p>
+  </div>
+  <div class="col-9">
+    <p class="h5 text-left">
+      <%= @user.ideas.count %>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-3">
+    <p class="h5">Total Number of Likes:</p>
+  </div>
+  <div class="col-9">
+    <p class="h5 text-left">
+      <%= @user.likes.count %>
+    </p>
+  </div>
+</div>

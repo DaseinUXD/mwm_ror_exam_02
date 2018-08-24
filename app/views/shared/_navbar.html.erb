@@ -8,9 +8,9 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <% if current_user %>
-          <a class="nav-link" href="#"><%= current_user.first_name %>><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#"><%= current_user.name %>><span class="sr-only">(current)</span></a>
         <% else %>
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <p class="nav-link" href="#"> <span class="sr-only">(current)</span></p>
         <% end %>
       </li>
     </ul>
@@ -20,13 +20,9 @@
         <input type="hidden" name="_method" value="delete">
         <input type="submit" class="btn btn-light" value="Log Out">
       </form>
-    <%# else %>
-<!--      <form class="form-inline my-2 my-lg-0" action="/login" method="get">-->
-<!--        <!--        <input type="hidden" name="authenticity_token" value="<%##= form_authenticity_token %>">-->-->
-<!--        <!--        <input type="hidden" name="_method" value="delete">-->-->
-<!--        <input type="submit" class="btn btn-light" value="Log In">-->
-<!--      </form>-->
+      <% end %>
 
-    <% end %>
+
+
   </div>
 </nav>

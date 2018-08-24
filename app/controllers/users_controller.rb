@@ -11,10 +11,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @user.save
     if @user.save
-      flash[:notice] = "Congratulations #{@user.first_name}, you are now registered. "
+      flash[:notice] = "Congratulations #{@user.name}, you are now registered. "
       session[:user_id] = @user.id
 
-      redirect_to profile_path
+      redirect_to ideas_index_path
     else
       flash[:alert] = "User registration has failed. Please review errors below."
       render 'new'
@@ -26,7 +26,7 @@ class UsersController < ApplicationController
     @user = User.find(session[:user_id])
     # @current_user
     if @user
-      puts 'we have an @user last_name:  ', @user.last_name
+      puts 'we have an @user name:  ', @user.name
     end
 
   end
@@ -43,6 +43,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation, :alias)
+    params.require(:user).permit(:name, :alias, :email, :password, :password_confirmation)
   end
 end

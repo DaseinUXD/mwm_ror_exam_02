@@ -32,6 +32,20 @@
 #      rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
 
 Rails.application.routes.draw do
+  get 'likes/index'
+  get 'likes/new'
+  post 'likes/create'
+  get 'likes/show'
+  get 'likes/edit'
+  get 'likes/update'
+  get 'likes/destroy'
+  get 'ideas/index'
+  get 'ideas/new'
+  get 'ideas/create'
+  get 'ideas/show'
+  get 'ideas/edit'
+  get 'ideas/update'
+  get 'ideas/destroy'
   # CUSTOM ROUTES FOR REGISTERING USERS #
 
   get '/register', to: 'users#new'
@@ -44,7 +58,8 @@ Rails.application.routes.draw do
   get '/profile', to: 'users#show'
 
   # RESOURCE ROUTES CONTROLLERS #
-  resources :items
+  resources :ideas
+  resources :likes
   resources :users
   resources :sessions
 

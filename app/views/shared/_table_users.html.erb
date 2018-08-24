@@ -10,8 +10,8 @@
 
   <%= t.body do |user| %>
     <%= t.r do %>
-      <%= t.d(h(user.first_name)) %>
-      <%= t.d(h(user.last_name)) %>
+      <%= t.d(h(user.name)) %>
+      <%= t.d(h(user.alias)) %>
       <%= t.d(h(user.email)) %>
     <% end %>
   <% end %>

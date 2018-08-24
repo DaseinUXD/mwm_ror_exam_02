@@ -15,7 +15,7 @@ class ItemsController < ApplicationController
       flash[:notice] = "Congratulations #{@item.name}, was created successfully. "
       redirect_to '/items'
     else
-      flash[:alert] = "User registration has failed. Please review errors below."
+      flash[:alert] = "Item creation failed. Please review errors below."
       render 'index'
     end
 

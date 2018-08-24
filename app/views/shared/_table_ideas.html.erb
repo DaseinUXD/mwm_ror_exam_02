@@ -1,0 +1,17 @@
+<%= table_for(@ideas,
+              :html=>{:class => 'table table-striped table-bordered table-hover'}) do |t| %>
+  <%= t.head(:class=>'thead-dark') do %>
+    <%= t.r(:class => 'text-center') do %>
+      <%= t.h('Alias') %>
+      <%= t.h('Content') %>
+      <%#= t.h('User ID') %>
+    <% end %>
+  <% end %>
+  <%= t.body do |idea| %>
+    <%= t.r do %>
+      <%= t.d(idea.user.alias) %>
+      <%= t.d(h(idea.content)) %>
+      <%#= t.d(h(item.user_id)) %>
+    <% end %>
+  <% end %>
+<% end %>

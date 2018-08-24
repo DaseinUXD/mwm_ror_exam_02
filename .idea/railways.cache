@@ -1,18 +1,40 @@
                    Prefix Verb   URI Pattern                                                                              Controller#Action
+              likes_index GET    /likes/index(.:format)                                                                   likes#index
+                likes_new GET    /likes/new(.:format)                                                                     likes#new
+             likes_create POST   /likes/create(.:format)                                                                  likes#create
+               likes_show GET    /likes/show(.:format)                                                                    likes#show
+               likes_edit GET    /likes/edit(.:format)                                                                    likes#edit
+             likes_update GET    /likes/update(.:format)                                                                  likes#update
+            likes_destroy GET    /likes/destroy(.:format)                                                                 likes#destroy
+              ideas_index GET    /ideas/index(.:format)                                                                   ideas#index
+                ideas_new GET    /ideas/new(.:format)                                                                     ideas#new
+             ideas_create GET    /ideas/create(.:format)                                                                  ideas#create
+               ideas_show GET    /ideas/show(.:format)                                                                    ideas#show
+               ideas_edit GET    /ideas/edit(.:format)                                                                    ideas#edit
+             ideas_update GET    /ideas/update(.:format)                                                                  ideas#update
+            ideas_destroy GET    /ideas/destroy(.:format)                                                                 ideas#destroy
                  register GET    /register(.:format)                                                                      users#new
                           POST   /register(.:format)                                                                      users#create
                     login GET    /login(.:format)                                                                         sessions#new
                           POST   /login(.:format)                                                                         sessions#create
                    logout DELETE /logout(.:format)                                                                        sessions#destroy
                   profile GET    /profile(.:format)                                                                       users#show
-                    items GET    /items(.:format)                                                                         items#index
-                          POST   /items(.:format)                                                                         items#create
-                 new_item GET    /items/new(.:format)                                                                     items#new
-                edit_item GET    /items/:id/edit(.:format)                                                                items#edit
-                     item GET    /items/:id(.:format)                                                                     items#show
-                          PATCH  /items/:id(.:format)                                                                     items#update
-                          PUT    /items/:id(.:format)                                                                     items#update
-                          DELETE /items/:id(.:format)                                                                     items#destroy
+                    ideas GET    /ideas(.:format)                                                                         ideas#index
+                          POST   /ideas(.:format)                                                                         ideas#create
+                 new_idea GET    /ideas/new(.:format)                                                                     ideas#new
+                edit_idea GET    /ideas/:id/edit(.:format)                                                                ideas#edit
+                     idea GET    /ideas/:id(.:format)                                                                     ideas#show
+                          PATCH  /ideas/:id(.:format)                                                                     ideas#update
+                          PUT    /ideas/:id(.:format)                                                                     ideas#update
+                          DELETE /ideas/:id(.:format)                                                                     ideas#destroy
+                    likes GET    /likes(.:format)                                                                         likes#index
+                          POST   /likes(.:format)                                                                         likes#create
+                 new_like GET    /likes/new(.:format)                                                                     likes#new
+                edit_like GET    /likes/:id/edit(.:format)                                                                likes#edit
+                     like GET    /likes/:id(.:format)                                                                     likes#show
+                          PATCH  /likes/:id(.:format)                                                                     likes#update
+                          PUT    /likes/:id(.:format)                                                                     likes#update
+                          DELETE /likes/:id(.:format)                                                                     likes#destroy
                     users GET    /users(.:format)                                                                         users#index
                           POST   /users(.:format)                                                                         users#create
                  new_user GET    /users/new(.:format)                                                                     users#new

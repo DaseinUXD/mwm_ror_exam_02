@@ -5,8 +5,7 @@
 #  id                    :bigint(8)        not null, primary key
 #  alias                 :string
 #  email                 :string
-#  first_name            :string
-#  last_name             :string
+#  name                  :string
 #  password_confirmation :string
 #  password_digest       :string
 #  created_at            :datetime         not null

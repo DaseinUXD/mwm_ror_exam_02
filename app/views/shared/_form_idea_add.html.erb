@@ -1,0 +1,20 @@
+<!-- generated from the scaffold form template -->
+<!--, :url => { :action => "create" }-->
+<%= simple_form_for @idea, url: ideas_create_path do |f| %>
+  <div class="row">
+    <div class="col-8">
+      <%= f.input :content, label: false, placeholder: 'Post something witty here...' %>
+    </div>
+    <div class="col-4">
+      <div class="form-actions">
+        <%= f.button :submit, "Idea!",
+                     class: "btn btn-primary",
+                     # formaction: "ideas_index",
+                     formmethod: "get" %>
+      </div>
+
+    </div>
+  </div>
+
+
+<% end %>

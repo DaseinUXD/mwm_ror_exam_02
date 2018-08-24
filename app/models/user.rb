@@ -5,8 +5,7 @@
 #  id                    :bigint(8)        not null, primary key
 #  alias                 :string
 #  email                 :string
-#  first_name            :string
-#  last_name             :string
+#  name                  :string
 #  password_confirmation :string
 #  password_digest       :string
 #  created_at            :datetime         not null
@@ -18,13 +17,16 @@ class User < ApplicationRecord
   ALPHA_ONLY_REGEX    = /\A[-a-z ']+\Z/i
   STRICT_PASSWORD_REGEX = /\A(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}\Z/i
   has_secure_password
-  has_many :items
+  has_many :ideas, dependent: :destroy
+  has_many :likes, dependent: :destroy
+  has_many :liked_ideas, through: :likes, source: :ideas
 
-  validates :first_name, :last_name, presence: true, length: { in: 2..20 }, format: {with: ALPHA_ONLY_REGEX, message: 'may contain only letters'}
+  validates :name, :alias, presence: true, length: { in: 2..20 }, format: {with: ALPHA_ONLY_REGEX, message: 'may contain only letters'}
+  validates :alias, uniqueness: true
   validates :email, presence: true, uniqueness: {case_sensitive: false}, format: {with: EMAIL_REGEX}
   validates :password, presence: true, length: { minimum: 8 } #format: {with: STRICT_PASSWORD_REGEX}
 
-  before_save :downcase_email
+  before_save :downcase_input
   after_create :cx_success
 
   def full_name
@@ -33,8 +35,9 @@ class User < ApplicationRecord
 
   private
 
-  def downcase_email
+  def downcase_input
     self.email.downcase!
+    self.alias.downcase!
   end
 
   def cx_success
